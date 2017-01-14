@@ -1,0 +1,18 @@
+<h1>
+ {{appTitle}}
+</h1>
+  
+<div class="container">
+  <div class="box">
+    {{calculatorModel.InputValue}}
+  </div>
+    
+  <div class="action-button">
+    <div *ngFor="let value of [9,8,7,6,5,4,3,2,1,0]" style="float:left">
+      <button class="number" (click)="onNumberClick(value)">{{value}}</button>
+    </div>
+    <div *ngFor="let value of ['+', '-', '/', '*', '=']" style="float:left">
+      <button class="number" (click)="onOperatorClick(value)">{{value}}</button>
+    </div>      
+  </div>
+</div>

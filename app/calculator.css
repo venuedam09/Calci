@@ -1,0 +1,33 @@
+.container {
+  width: 300px;
+}
+
+.box {
+  background-color:#e6e8e3;
+  width:300px;
+  border:1px solid #000;
+  text-align:right;
+  padding-top:8px;
+  padding-bottom:10px;
+  padding-top:10px;
+  padding-left:2px;
+  padding-right:2px;
+  height: 20px;
+  font-size: 20px;
+}
+
+.number {
+  width:75px;
+  height: 65px;
+  margin: 12px;
+  font-size: 20px;
+}
+
+.action-button {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  height: 445px;
+  width: 304px;
+  text-align: center;
+}
